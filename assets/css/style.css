@@ -315,16 +315,21 @@ input[type=submit] {
 		float: none;
 	}
 
+	#main-container{
+		padding-top: 0px;
+	}
+
 	.main-section {
 		position: relative;	
 		max-width: 580px;
-		margin-top: 60px;
+		margin-top: 0px;
 		margin-left: 20px;
 		margin-right: 20px;
 	}
 	
-	.main-header {
+	#main-header {
 		float: 	none;
+		position: static;
 	}
 
 	nav a {
